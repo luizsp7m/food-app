@@ -15,7 +15,7 @@ export function Navigator() {
         <Ionicons name="search" size={22} color="#3A3A3A" />
       </NavigatorItem>
 
-      <NavigatorItem onPress={() => navigation.navigate("restaurants")}>
+      <NavigatorItem onPress={() => navigation.navigate("food")}>
         <Ionicons name="ios-restaurant-outline" size={22} color="#3A3A3A" />
       </NavigatorItem>
 

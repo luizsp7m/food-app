@@ -13,10 +13,10 @@ function Search() {
   );
 }
 
-function Restaurants() {
+function Food() {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Restaurants Screen</Text>
+      <Text>Food Screen</Text>
     </View>
   );
 }
@@ -37,7 +37,7 @@ export function Routes() {
       }}>
         <Screen name="home" component={Home} />
         <Screen name="search" component={Search} />
-        <Screen name="restaurants" component={Restaurants} />
+        <Screen name="food" component={Food} />
         <Screen name="profile" component={Profile} />
       </Navigator>
     </NavigationContainer>

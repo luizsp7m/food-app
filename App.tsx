@@ -1,6 +1,5 @@
 import theme from "./src/theme";
 
-import { Home } from "./src/screens/Home";
 import { Loading } from "./src/components/Loading";
 import { ThemeProvider } from "styled-components";
 import { Routes } from "./src/routes";
@@ -21,9 +20,13 @@ export default function App() {
     Inter_900Black
   });
 
+  if (!fontsLoaded) {
+    return <Loading />
+  }
+
   return (
     <ThemeProvider theme={theme}>
-      {fontsLoaded ? <Routes /> : <Loading />}
+      <Routes />
     </ThemeProvider>
   );
 }
