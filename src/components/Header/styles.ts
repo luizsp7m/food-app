@@ -4,8 +4,7 @@ export const Container = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: ${({ theme }) => theme.MARGIN.XL};
-  padding: 0 ${({ theme }) => theme.PADDING.SM};
+  padding: ${({ theme }) => theme.PADDING.MD} ${({ theme }) => theme.PADDING.SM};
 `;
 
 export const AddressContainer = styled.TouchableOpacity.attrs({
@@ -34,7 +33,7 @@ export const BalanceContainer = styled.View`
 
 export const BalanceText = styled.Text`
   font-family: ${({ theme }) => theme.FONT_FAMILY.SEMI_BOLD};
-  font-size: ${({ theme }) => theme.FONT_SIZE.SM};
+  font-size: ${({ theme }) => theme.FONT_SIZE.XS};
   color: ${({ theme }) => theme.COLORS.TEXT_SECONDARY};
 `;
 

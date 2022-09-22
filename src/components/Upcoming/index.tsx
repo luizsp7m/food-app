@@ -6,15 +6,15 @@ import { Container, List } from "./styles";
 const DATA = [{
   id: "0",
   imageUrl: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-  name: "Novidades",
+  name: "Sorvetes",
 }, {
   id: "1",
   imageUrl: "https://img.freepik.com/free-photo/acai-smoothie-coconut-shell_53876-124340.jpg?w=826&t=st=1663819195~exp=1663819795~hmac=f2f5dfd9028748e7a12a894e7fb7a96b96de93f6fc5e998cacb1d28ab0a59027",
-  name: "Açai",
+  name: "Açais",
 }, {
   id: "2",
   imageUrl: "https://images.unsplash.com/photo-1623660053975-cf75a8be0908?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-  name: "Chocolate",
+  name: "Chocolates",
 }, {
   id: "3",
   imageUrl: "https://images.unsplash.com/photo-1519996529931-28324d5a630e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",

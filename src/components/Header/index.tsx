@@ -25,7 +25,7 @@ export function Header() {
       <Menu>
         <BalanceContainer>
           <BalanceText>Saldo</BalanceText>
-          <Balance>R$ 10,00</Balance>
+          <Balance>R$ 7,35</Balance>
         </BalanceContainer>
 
         <Button>
